@@ -108,19 +108,29 @@ body {
   font-size: 1.25em;
   height: 100%;
 }
-
+.wrapper {
+    /*add display:flex and set justify-content to space-between*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    font-weight: 700;
+}
 header, footer {
   display: flex;
   justify-content: center;
   align-items: center;
   background-color: #48ACF0;
-  height: 80px;
+  height: 90px;
   width: 100%;
 }
 main {
   height: 250px;
   width: 100%;
 }
+
+
 header, footer, main {
   display: flex;
   justify-content: center;
@@ -134,37 +144,28 @@ header{
 main {
   font-size: 1.7em;
 }
-.wrapper {
-  /*add display:flex and set justify-content to space-between*/
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-flow: row wrap;
-  justify-content: space-between;
-  font-weight: 700;
-}
+
 
 .div-1, .div-2, .div-3 {
   /*give the divs a width of 30%, add display:flex, set justify-content and align-items to center*/
-  display: flex;
   width: 30%;
+  display: flex;
   justify-content: center;
   align-items: center;
   color: #FDFFFC;
   line-height: 1.5em;
   font-size: 1em;
-  background-color: #48ACF0;
+  background-color: rgb(89, 124, 148);
   /*https://coolors.co/fdfffc-3b91e2-48acf0-ffee7f-2d541a*/
   height: auto;
   padding: 5%;
 }
 
 .div-2 {
-  border-left: 1px solid grey;
-
+  /* border-left: 1px solid grey; */
 }
 .div-3 {
-  border-left: 1px solid grey;
+  /* border-left: 1px solid grey; */
 
 }
 
